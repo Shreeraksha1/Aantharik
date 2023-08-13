@@ -78,6 +78,9 @@
 }
 
 /*** Navbar ***/
+nav > a > img {
+    width: 3rem;
+}
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
