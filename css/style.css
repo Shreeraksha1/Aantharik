@@ -626,6 +626,7 @@ nav > a > img {
 }
 
 
+/***collapse section***/
 html,
 .root {
   padding: 0;
@@ -698,4 +699,8 @@ details p {
   font-size: 0.95rem;
   margin: 0 0 1rem;
   padding-top: 1rem;
+}
+
+summary a {
+    color:#555;
 }
