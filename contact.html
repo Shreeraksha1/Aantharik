@@ -123,34 +123,35 @@
                             We're here for freelancers, architects, engineers, and design enthusiasts like you. 
                             Share your details and message, and expect a prompt response from our dedicated team. 
                             Your design journey starts with us – let's connect and make it exceptional.</p>
-                        <form>
+                            <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
+                                        <input required type="text" class="form-control" id="name" placeholder="Your Name" name="FNAME"> 
+                                        <label>Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
+                                        <input required type="text" class="form-control" id="Phone" placeholder="Your Mobile" name="PHONE">
+                                        <label>Your Mobile</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                                        <input required type="email" class="form-control" id="email" placeholder="Your Email" name="EMAIL">
+                                        <label>Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
+                                        <textarea required class="form-control" placeholder="Leave a message here" id="message"  name="MMERGE6" style="height: 100px"></textarea>
+                                        <label >Message</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary w-100 py-3 button" value="Send Message">
+                                    <!-- <button class="btn btn-primary w-100 py-3" >Send Message</button> -->
                                 </div>
                             </div>
                         </form>
@@ -168,6 +169,9 @@
         </div>
     </div>
     <!-- Contact End -->
+
+
+
 
 
     <!-- Footer Start -->
@@ -230,6 +234,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[0]='EMAIL';ftypes[0]='email';fnames[6]='MMERGE6';ftypes[6]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 </body>
 
 </html>
