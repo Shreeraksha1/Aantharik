@@ -715,3 +715,6 @@ details p {
 li a{
     color: #353535;
 }
+.alert {
+    display: none;
+}
